@@ -1,20 +1,14 @@
-# Read Me First
-The following was discovered as part of building this project:
 
-* The original package name 'com.carrijo.santander.bankline-api' is invalid and this project uses 'com.carrijo.santander.banklineapi' instead.
+# REST API com Spring Boot
 
-# Getting Started
+Projeto para criação de uma API que gerencia os correntistas e suas movimentacoes, semelhante ao cliente de um Banco.
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Esse bankline-api é para utilizar no BootCamp Santander Dev Week 2022
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/#build-image)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.2.3/reference/htmlsingle/index.html#data.sql.jpa-and-spring-data)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## Stack utilizada
 
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+Back-End com Spring Boot, Swagger, Hibernate, postgres e publicado no Railway podendo disponibilizar para o mundo.
+## 🚀 Sobre mim
+Eu sou um Analista de Infraestrutura, estudando a linguagem Java para poder me tornar um Desenvolvedor Backend.
 
