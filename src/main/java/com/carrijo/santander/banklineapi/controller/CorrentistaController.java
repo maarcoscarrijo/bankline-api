@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/correntistas")
 public class CorrentistaController {
@@ -22,6 +21,7 @@ public class CorrentistaController {
     private CorrentistaService service;
 
     @GetMapping
+    @CrossOrigin
     public List<Correntista> findAll(){
         return  repository.findAll();
     }

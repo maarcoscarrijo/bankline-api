@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin
 @RestController
 @RequestMapping("/movimentacoes")
 public class MovimentacaoController {
@@ -22,11 +21,13 @@ public class MovimentacaoController {
     private MovimentacaoService service;
 
     @GetMapping
+    @CrossOrigin
     public List<Movimentacao> findAll(){
         return  repository.findAll();
     }
 
     @PostMapping
+    @CrossOrigin
     public void save(@RequestBody NovaMovimentacao movimentacao){
         service.save(movimentacao);
     }
