@@ -6,8 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @OpenAPIDefinition(servers = { @Server(url = "/", description = "Default Server URL")})
+//@EnableFeignClients
 @SpringBootApplication
 public class BanklineApiApplication {
+	public String PORT = System.getenv("PORT");
 
 	public static void main(String[] args) {
 		SpringApplication.run(BanklineApiApplication.class, args);

@@ -7,6 +7,7 @@
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/model/Correntista.java
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/dto/NovaMovimentacao.java
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/model/MovimentacaoTipo.java
+/Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/configuration/CorsConfig.java
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/service/CorrentistaService.java
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/BanklineApiApplication.java
 /Users/marcoscarrijo/Documents/dev/ws-eclipse/bankline-api/src/main/java/com/carrijo/santander/banklineapi/model/Conta.java
