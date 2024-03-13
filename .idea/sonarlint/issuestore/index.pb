@@ -13,3 +13,9 @@ Fsrc/main/java/com/carrijo/santander/banklineapi/model/Correntista.java,0/b/0b2
 Ksrc/main/java/com/carrijo/santander/banklineapi/model/MovimentacaoTipo.java,d/1/d17ff91fe952f34a9f69ea3994199cf983ca7b8f
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+†
+Vsrc/main/java/com/carrijo/santander/banklineapi/repository/MovimentacaoRepository.java,a/5/a5aa4ce0e1fc5086be375325c5ef7e427c633ca5
+…
+Usrc/main/java/com/carrijo/santander/banklineapi/repository/CorrentistaRepository.java,9/c/9cdf4282d78364bc49d7f2b36fcbffb7fe44bd47
+…
+Usrc/main/java/com/carrijo/santander/banklineapi/controller/CorrentistaController.java,e/6/e6f64277a8d2b9ab0823893d630d547050b0d9d7

@@ -1,35 +1,13 @@
-package com.carrijo.santander.banklineapi.model;
+package com.carrijo.santander.banklineapi.dto;
 
-import jakarta.persistence.*;
+import com.carrijo.santander.banklineapi.model.MovimentacaoTipo;
 
-import java.time.LocalDateTime;
+public class NovaMovimentacao {
 
-@Entity
-@Table(name = "tb_movimentacao")
-public class Movimentacao {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
-    @Column(name = "id_conta")
     private Integer idConta;
-
-    @Column(name = "data_hora")
-    private LocalDateTime datahora;
     private String descricao;
     private Double valor;
-
-    @Enumerated(EnumType.STRING)
     private MovimentacaoTipo tipo;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public Integer getIdConta() {
         return idConta;
@@ -37,14 +15,6 @@ public class Movimentacao {
 
     public void setIdConta(Integer idConta) {
         this.idConta = idConta;
-    }
-
-    public LocalDateTime getDatahora() {
-        return datahora;
-    }
-
-    public void setDatahora(LocalDateTime datahora) {
-        this.datahora = datahora;
     }
 
     public String getDescricao() {
