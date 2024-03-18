@@ -10,5 +10,6 @@ com/carrijo/santander/banklineapi/controller/MovimentacaoController.class
 com/carrijo/santander/banklineapi/repository/CorrentistaRepository.class
 com/carrijo/santander/banklineapi/model/Conta.class
 com/carrijo/santander/banklineapi/dto/NovaMovimentacao.class
+com/carrijo/santander/banklineapi/config/WebConfig.class
 com/carrijo/santander/banklineapi/controller/CorrentistaController.class
 com/carrijo/santander/banklineapi/service/CorrentistaService.class
