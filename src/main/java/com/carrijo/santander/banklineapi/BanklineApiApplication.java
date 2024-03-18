@@ -13,6 +13,7 @@ public class BanklineApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BanklineApiApplication.class, args);
+		//https://mc-bankline-api-prd.up.railway.app/swagger-ui/index.html
 	}
 
 }

@@ -26,6 +26,11 @@ public class MovimentacaoController {
         return  repository.findAll();
     }
 
+    @GetMapping("/{idConta}")
+    public List<Movimentacao> findAll(@PathVariable("idConta") Integer idConta){
+        return repository.findByIdConta(idConta);
+    }
+
     @PostMapping
     @CrossOrigin
     public void save(@RequestBody NovaMovimentacao movimentacao){
