@@ -27,12 +27,13 @@ y
 Isrc/main/java/com/carrijo/santander/banklineapi/dto/NovaMovimentacao.java,a/0/a025f60d902958107db053a464dffbfaf3993a5d
 €
 Psrc/main/java/com/carrijo/santander/banklineapi/service/MovimentacaoService.java,1/7/1785c11e0bb7867b464e1849a18ee869798c48c9
-:
-
-Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 †
 Vsrc/main/java/com/carrijo/santander/banklineapi/controller/MovimentacaoController.java,8/a/8a635d89d9def43a5be7e929b31130a587820379
 }
 Msrc/main/java/com/carrijo/santander/banklineapi/configuration/CorsConfig.java,b/7/b78ae577658b73d42328acaa360d124720dcba5b
 €
 Psrc/test/java/com/carrijo/santander/banklineapi/BanklineApiApplicationTests.java,b/5/b5961f39094319dc909755c3eba3d1189b7e5648
+>
+.gitattributes,2/4/24139dae656713ba861751fb2c2ac38839349a7a
+u
+Esrc/main/java/com/carrijo/santander/banklineapi/config/WebConfig.java,6/b/6baca13e3ab6a2e63c6ed090a6177c7601e97167
