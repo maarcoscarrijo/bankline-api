@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@EnableFeignClients
 @SpringBootApplication
 public class BanklineApiApplication {
-	public String PORT = System.getenv("PORT");
 
 	public static void main(String[] args) {
 		SpringApplication.run(BanklineApiApplication.class, args);
